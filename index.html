@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama</title>
+</head>
+<style>
+    body{
+        background-color: rgb(221, 188, 147);
+    }
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 96px;
+}
+.tab
+{
+margin-top: 30px;
+}
+.btn
+{
+    margin-top: 10px;
+}
+</style>
+<body>
+<main class="main">
+    
+    <label for="">first name:</label>
+    <input type="text" name="" value="" id="fname">
+    <label for="">Last name:</label>
+
+    <input type="text" name="" value="" id="lname">
+    <label for="">Designation:</label>
+
+    <input type="text" name="" value="" id="des">
+
+    <button class="btn" onclick="add()">Add</button>
+
+
+    <section class="tab">
+        <table border="2">
+            <tr>
+                <th>First Name</th>
+                <th>Details</th>
+            </tr>
+            <tbody id="tb1">
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="sec">
+        
+    </section>
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
